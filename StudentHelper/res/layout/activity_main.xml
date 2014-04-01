@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   
+    android:orientation="vertical"
+    android:background="@drawable/mountain"
+    >
+
+    <ImageButton
+        android:id="@+id/b_grades"
+        android:src="@drawable/grades"
+        android:background="#00000000"
+        android:layout_height="80dp"
+        android:layout_width = "wrap_content" />
+    
+    <ImageButton
+        android:id="@+id/b_maps"
+        android:src="@drawable/maps"
+        android:background="#00000000"
+        android:layout_height="80dp"
+        android:layout_width = "wrap_content" />
+    
+    <ImageButton
+        android:id="@+id/b_jacks"
+        android:src="@drawable/jacks"
+        android:background="#00000000"
+        android:layout_height="80dp"
+        android:layout_width = "wrap_content" />
+</LinearLayout>
